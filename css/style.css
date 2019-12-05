@@ -1,3 +1,16 @@
 h1{
-  color: red
+  color: red;
+}
+
+p{
+  color: rgb(100, 10, 10);
+  margin-right: 300px;
+}
+
+.answer{
+  color: blue
+}
+
+.center{
+  text-align: center;
 }

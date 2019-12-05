@@ -1,4 +1,5 @@
 'use strict';
+debugger;
 console.log('js is working');
 
 alert('Welcome to my site! Please complete this short quiz about me');

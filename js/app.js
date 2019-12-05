@@ -81,7 +81,11 @@ for(trys = 4; trys > 0; trys = trys - 1){
     break;
   }else if(guess !== correctNum){
     console.log('user entered incorrect num');
-    alert('You guessed incorrectly!');
+    if(guess < correctNum)
+      alert('go higher!');
+    else if(guess > correctNum){
+      alert('go lower');
+    }
     newPrompt();
   }
 }

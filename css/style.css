@@ -74,4 +74,10 @@ ol{
     padding: 5px
   }
 
-  li {counter-increment: li}
+  li {counter-increment: li
+  }
+
+  ul li::before {
+    content: "\2022";
+    padding: 5px
+  }
